@@ -5,6 +5,8 @@ export default {
     'images': resolve(__dirname, 'assets/images'),
   },
 
+  target: 'static',
+  ssr: false,
 
   mode: 'universal',
   /*
